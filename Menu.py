@@ -5,7 +5,7 @@ import Interactivos
 def principal():
     while True:
 
-        print("TALLER DE PILAS Y COLAS")
+        print("TALLER DE PILAS Y COLAS \n")
         
         print("1. Historial \n2. Bandejas\n3. Banco\n4. Impresión")
         print("5. Menú Interactivo Pilas\n6. Menú Interactivo Colas\n0. Salir")

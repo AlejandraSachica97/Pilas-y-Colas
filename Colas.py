@@ -14,7 +14,7 @@ def Banco():
 
 def Impresion():
     print("\n Impresión pendientes")
-    cola_docs = deque("Cedula.pdf", "Foto.jpg", "Taller.docx", "Nota.txt", "Planilla.pdf")
+    cola_docs = deque("Doc1.pdf", "Foto.jpg", "Taller.docx", "Nota.txt", "Planilla.xlsx")
     print(f"Cola de impresión: {list(cola_docs)}")
     
     for _ in range(3):
